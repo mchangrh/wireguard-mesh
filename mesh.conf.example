@@ -1,0 +1,25 @@
+## last-update
+
+# us-ash.do
+[Peer]
+PublicKey = ASH/x=
+AllowedIps = 10.10.0.65/32,fd10:10::1/128
+Endpoint = us-ash.do.example.com:8080
+
+# us-buf.do
+[Peer]
+PublicKey = BUF/x=
+AllowedIps = 10.10.0.66/32,fd10:10::2/128
+Endpoint = us-buf.do.example.com:8080
+
+## clients
+
+# calvin.wg
+[Peer]
+PublicKey = CAL/x=
+AllowedIps = 10.10.0.100/32,fd10:10::c1/128
+
+# pi.wg
+[Peer]
+PublicKey = pi/x=
+AllowedIps = 10.10.0.101/32,fd10:10::c2/128
